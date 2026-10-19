@@ -13,15 +13,15 @@ Across all lectures there are flashcards, a one-page formula sheet, and a random
 
 ## Running it
 
-It is a static site with no build step. Serve the folder with any static server and open it:
+Live version: https://ahmedatefyoussef.github.io/ics504-midterm-lab/
+
+To run it locally: it is a static site with no build step. Serve the folder with any static server and open it:
 
 ```bash
 python -m http.server 8000
 ```
 
 Then visit http://localhost:8000. Opening `index.html` directly from disk may block the script files in some browsers, so a server is recommended.
-
-`index.html` has no `<!doctype>`, `<html>` or `<body>` tags because it was written for a host that adds that skeleton. Browsers render it fine, but in quirks mode.
 
 ## Files
 
